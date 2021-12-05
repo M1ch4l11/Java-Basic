@@ -1,0 +1,133 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Kniznica.Main",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Person",
+            "request": "launch",
+            "mainClass": "Person",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rectangle",
+            "request": "launch",
+            "mainClass": "Rectangle",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rectangel",
+            "request": "launch",
+            "mainClass": "Rectangel",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Funkcie",
+            "request": "launch",
+            "mainClass": "Funkcie",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Battery",
+            "request": "launch",
+            "mainClass": "Battery",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bus",
+            "request": "launch",
+            "mainClass": "Bus",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Label",
+            "request": "launch",
+            "mainClass": "Label",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prism",
+            "request": "launch",
+            "mainClass": "Prism",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stopwatch",
+            "request": "launch",
+            "mainClass": "Stopwatch",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch niec",
+            "request": "launch",
+            "mainClass": "niec",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Robot",
+            "request": "launch",
+            "mainClass": "Robot",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch open",
+            "request": "launch",
+            "mainClass": "open",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Run",
+            "request": "launch",
+            "mainClass": "Run",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "android",
+            "request": "launch",
+            "name": "Launch App",
+            "appSrcRoot": "C:/Users/xgelb/AndroidStudioProjects/FirstApp/app/src/main",
+            "apkFile": "C:/Users/xgelb/AndroidStudioProjects/FirstApp/app\build/outputs/apk/debug/app-debug.apk",
+            "adbSocket": "localhost:5037",
+            "autoStartADB": true,
+            "staleBuild": "warn",
+            "targetDevice": "",
+            "manifestFile": "C:/Users/xgelb/AndroidStudioProjects/FirstApp/app/src/main/AndroidManifest.xml",
+            "pmInstallArgs": [
+                "-r"
+            ],
+            "amStartArgs": [
+                "-D",
+                "--activity-brought-to-front",
+                "-a android.intent.action.MAIN",
+                "-c android.intent.category.LAUNCHER",
+                "-n package.name/launch.activity"
+            ],
+            "launchActivity": ".MainActivity",
+            "postLaunchPause": 1000,
+            "trace": false
+        },
+        {
+            "type": "android",
+            "request": "launch",
+            "name": "App Build & Launch",
+            "preLaunchTask": "run gradle"
+        }
+    ]
+}

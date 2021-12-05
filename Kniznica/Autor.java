@@ -1,13 +1,13 @@
 package Kniznica;
 
-class Autor {
+class Autor{
 private String meno,email,pohlavie;
 
-public Autor(String meno,String email, String pohlavie){
+public Autor(String meno,String email, String pohlavie) throws Exception{
     this.meno = meno;
     this.email = email;
-    if(pohlavie.equalsIgnoreCase("man") || pohlavie.equalsIgnoreCase("woman"))this.pohlavie = pohlavie;
-    else this.pohlavie =pohlavie;
+    if(pohlavie.equalsIgnoreCase("man") || pohlavie.equalsIgnoreCase("woman"))this.pohlavie =pohlavie;
+    else throw new Exception("!!! Zadaj ako pohlavie ---> Man/man || Woman/woman");
 }
 
     public String getMeno() {
