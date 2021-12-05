@@ -52,9 +52,9 @@ public class Kniha{
         this.autor = autor;
     }
     
-    @Override
+    
     public String toString() {    
-        return super.toString();
+        return autor.toString();
    }
     // bonus
     public String getAutorMeno(){

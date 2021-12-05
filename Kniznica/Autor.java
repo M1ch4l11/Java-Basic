@@ -34,9 +34,11 @@ public Autor(String meno,String email, String pohlavie) throws Exception{
         this.pohlavie = pohlavie;
     }
 
-    @Override
+   
     public String toString() {
-        return super.toString();
+        return  "Autor"+"\nMeno: " + this.meno + "\n" 
+        + "e-mail: " + this.email + "\n"
+        + "Pohlavie: " + this.pohlavie;
     }
 
     
