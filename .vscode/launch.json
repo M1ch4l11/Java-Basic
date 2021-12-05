@@ -4,6 +4,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "BodTrojuholnik.Main",
+            "projectName": "JavaPrograming_4f67510f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Kniznica.Main",
             "projectName": "JavaPrograming_4f67510f"
         },

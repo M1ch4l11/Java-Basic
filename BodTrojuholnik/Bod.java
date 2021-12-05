@@ -5,10 +5,8 @@ public class Bod {
     private int x,y;
 
     public Bod(int x,int y){
-        if(x<0)this.x = 0;
-        else this.x = x;
-        if(y<0)this.y = 0;
-        else this.y = y;
+        this.x = x;
+        this.y = y;
     }
 
     public Bod(){
@@ -34,14 +32,12 @@ public class Bod {
     }
 
     public void setXY(int x,int y){
-        if(x<0)this.x = 0;
-        else this.x = x;
-        if(y<0)this.y = 0;
-        else this.y = y;
+        this.x = x;
+        this.y = y;
     }
 
     public String toString(){
-        return "(" + this.x + "," + ")";
+        return "(" + this.x + "," + this.y + ")";
     }
 
     public double vzdialenost(int x,int y){
