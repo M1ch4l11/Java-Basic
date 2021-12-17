@@ -28,5 +28,6 @@ public class Game {
         System.out.println("...........................");
         System.out.println("....|-This is the End-|....");
         System.out.println("...........................");
+        input.close();
     }
 }
