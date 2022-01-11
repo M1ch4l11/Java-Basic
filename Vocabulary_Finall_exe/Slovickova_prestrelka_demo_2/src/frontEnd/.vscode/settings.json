@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.dependency.autoRefresh": true,
+    "workbench.sideBar.location": "right",
+    "workbench.editorAssociations": [
+    {
+        "viewType": "default",
+        "filenamePattern": ".jpg"
+    }
+
+    ]
+    
+}
