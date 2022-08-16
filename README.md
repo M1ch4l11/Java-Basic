@@ -3,9 +3,9 @@ Labyrint - Is a simple console app, using arrows (Java)
 
 Vocabulary_Finall_exe - 
 Finall product for user. 
-You can testing your knowledge in words(anj,NJ or what do you want.)
+You can testing your knowledge in words(anj,NJ or any other language.)
 App: processing .zip, reading and writing .txt. (java, swing)
-you can just edit the txt and you got a new game, simple updating.
+you can just edit the file.txt and you got a new game, simple updating.
 
 Zber Ovocia - 
 Simple JavaFX app.
